@@ -14,7 +14,7 @@
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 300;
-  src: url("../fonts/ubuntu-v20-latin-300.woff2") format("woff2"), url("../fonts/ubuntu-v20-latin-300.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  src: url("fonts/ubuntu-v20-latin-300.woff2") format("woff2"), url("fonts/ubuntu-v20-latin-300.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* ubuntu-regular - latin */
 @font-face {
@@ -22,7 +22,7 @@
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/ubuntu-v20-latin-regular.woff2") format("woff2"), url("../fonts/ubuntu-v20-latin-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  src: url("fonts/ubuntu-v20-latin-regular.woff2") format("woff2"), url("fonts/ubuntu-v20-latin-regular.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* ubuntu-500 - latin */
 @font-face {
@@ -30,7 +30,7 @@
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 500;
-  src: url("../fonts/ubuntu-v20-latin-500.woff2") format("woff2"), url("../fonts/ubuntu-v20-latin-500.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  src: url("fonts/ubuntu-v20-latin-500.woff2") format("woff2"), url("fonts/ubuntu-v20-latin-500.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 /* ubuntu-700 - latin */
 @font-face {
@@ -38,7 +38,7 @@
   font-family: "Ubuntu";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/ubuntu-v20-latin-700.woff2") format("woff2"), url("../fonts/ubuntu-v20-latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  src: url("fonts/ubuntu-v20-latin-700.woff2") format("woff2"), url("fonts/ubuntu-v20-latin-700.ttf") format("truetype"); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 :root {
   --logo-typography_font-name: "Ubuntu", sans-serif;
@@ -421,7 +421,7 @@ header#site-header .main-navigation-list .main-navigation-panel {
   z-index: 1000;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
   background-color: #FFF;
-  background-image: url(/images/cerillion/menu-bg.jpg);
+  background-image: url(../images/cerillion/menu-bg.jpg);
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -801,7 +801,7 @@ header#site-header .main-navigation-list .main-navigation-panel .mnp-link-item s
 }
 
 nav.cer-mobile-menu.mm {
-  background-image: url(/images/cerillion/menu-bg.jpg);
+  background-image: url(../images/cerillion/menu-bg.jpg);
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 150%;
@@ -1014,7 +1014,7 @@ nav.cer-mobile-menu.mm ul li a .mobile-link .menu-icon img {
   position: relative;
 }
 .case-study-carousel .slides .item .inner .carousel-quote .quote-mark {
-  background-image: url(/images/cerillion/icons/quote.svg);
+  background-image: url(../images/cerillion/icons/quote.svg);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: contain;
@@ -1835,7 +1835,7 @@ section.content.cer-accordion .usn_cmp_accordiontab.cer-accordion .repeatable.ac
   }
 }
 .cer_subpage-header .subpage-header-bg {
-  background-image: url(/images/cerillion/ring-bg-light.png);
+  background-image: url(../images/cerillion/ring-bg-light.png);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: contain;
@@ -2159,7 +2159,7 @@ section.content.cer-accordion .usn_cmp_accordiontab.cer-accordion .repeatable.ac
   border-radius: 0.5rem;
   overflow: hidden;
   background-color: #192259;
-  background-image: url(/images/cerillion/related-circle.png);
+  background-image: url(../images/cerillion/related-circle.png);
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2287,7 +2287,7 @@ section.content.cer-accordion .usn_cmp_accordiontab.cer-accordion .repeatable.ac
 }
 .quote-wrapper .quote:before {
   content: " ";
-  background-image: url(/images/cerillion/icons/quote.svg);
+  background-image: url(../images/cerillion/icons/quote.svg);
   background-repeat: no-repeat;
   width: 60px;
   height: 65px;
@@ -4080,7 +4080,7 @@ header#site-header .site-search-form .form-control {
 
 .item-quote blockquote:before {
   content: " ";
-  background-image: url(/images/cerillion/icons/quote.svg);
+  background-image: url(../images/cerillion/icons/quote.svg);
   background-repeat: no-repeat;
   width: 25px;
   height: 27px;
