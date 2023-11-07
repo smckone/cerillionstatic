@@ -421,7 +421,7 @@ header#site-header .main-navigation-list .main-navigation-panel {
   z-index: 1000;
   box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
   background-color: #FFF;
-  background-image: url(../images/cerillion/menu-bg.jpg);
+  background-image: url(../images/cerillion/menu-bg.webp);
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 50%;
@@ -801,7 +801,7 @@ header#site-header .main-navigation-list .main-navigation-panel .mnp-link-item s
 }
 
 nav.cer-mobile-menu.mm {
-  background-image: url(../images/cerillion/menu-bg.jpg);
+  background-image: url(../images/cerillion/menu-bg.webp);
   background-position: bottom left;
   background-repeat: no-repeat;
   background-size: 150%;
